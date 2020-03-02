@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { SliderAndInput } from '../components/SliderAndInput';
+import { AppVersion } from '../components/AppVersion';
 
 export const IndexPage = () => {
   const [value, setValue] = React.useState(0);
@@ -12,7 +13,9 @@ export const IndexPage = () => {
 
   return (
     <div style={{ padding: '10px' }}>
-      <h4>React Sample Slider and Input</h4>
+      <h4>
+        React Sample Slider and Input (ver: <AppVersion />)
+      </h4>
       <div>
         <div>value: {value}</div>
         <SliderAndInput value={value} onChangeValue={handleChangeValue} max={100} min={-10} step={0.1} />
