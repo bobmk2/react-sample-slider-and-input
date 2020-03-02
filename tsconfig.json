@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "jsx": "react",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "es2015",
+    "lib": ["es2018", "dom"],
+    "strict": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictFunctionTypes": false,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "moduleResolution": "node",
+    "types": ["node"]
+  }
+}

@@ -1,0 +1,7 @@
+dest/*
+node_modules/*
+npm-debug.log
+
+coverage/*
+.vscode/*
+!.vscode/extensions.json
